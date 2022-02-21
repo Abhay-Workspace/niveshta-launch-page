@@ -6,7 +6,7 @@ void main() {
   runApp(MyApp());
 }
 
-const String _url = 'https://twitter.com/AbhayPaswan';
+const String _url = 'https://twitter.com/niveshta';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -64,7 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
               'Stay tuned with us!\n',
               style: Theme.of(context).textTheme.headline4,
             ),
-            // <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             InkWell(
               child: Icon(
                 FontAwesomeIcons.twitter,
