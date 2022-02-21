@@ -44,3 +44,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+.firebase/
+.firebaserc
+.github/
+android/.build.gradle.icloud
+android/.settings.gradle.icloud
+firebase.json
+ios/Flutter/.AppFrameworkInfo.plist.icloud
